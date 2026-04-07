@@ -1,0 +1,23 @@
+services:
+  accounts:
+    image: "danieljari/accounts:s4"
+    container_name: accounts-ms
+    ports:
+    - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+---
+
+services:
+  accounts:
+    image: "danieljari/accounts:s4"
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+      -
+    deploy:
+      resources:
+        limits:
+          memory: 700m

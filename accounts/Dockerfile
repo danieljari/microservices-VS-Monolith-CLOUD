@@ -1,8 +1,9 @@
-# Start with a base image containing java runtime
+FROM eclipse-temurin:17-jdk AS build
+WORKDIR /app
+COPY . .
+RUN ./mvnw clean package -DskipTests
+
 FROM eclipse-temurin:17-jdk
-
-# Copy the jar file to docker image
-COPY target/accounts-0.0.1-SNAPSHOT.jar accounts-0.0.1-SNAPSHOT.jar
-
-# Execute the jar
-ENTRYPOINT ["java", "-jar", "accounts-0.0.1-SNAPSHOT.jar"]
+WORKDIR /app
+COPY --from=build /app/target/*.jar app.jar
+ENTRYPOINT ["java", "-jar", "app.jar"]
