@@ -1,5 +1,5 @@
 # Native Cloud vs Cloud.
-## An inmplmenentation of a bank application
+## An implementation of a bank application
 ### used:
 #### Java Springboot
 #### DTO design pattern
