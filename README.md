@@ -6,6 +6,7 @@
 #### DTO design pattern
 #### Microservices
 #### API first focus
+### Spring Cloud
 
 #### Docker & kubernetes
 #### Clear implementation with right sizing of pods and security thinking
