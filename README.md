@@ -5,7 +5,7 @@
 #### Java Springboot
 #### DTO design pattern
 #### Microservices
-### Config server as an microservice for all configurations and different profiles (test, Production, staging)
+#### Config server as an microservice for all configurations and different profiles (test, Production, staging)
 #### API first focus
 ### Spring Cloud
 
