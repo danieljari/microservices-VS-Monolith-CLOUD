@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs "
+  contactDetails:
+    name: "Daniel Jari- Product Owner"
+    email: "Daniel@jari.com"
+  onCallSupport:
+    - (+46) 00000000
+    - (+46) 00000000
