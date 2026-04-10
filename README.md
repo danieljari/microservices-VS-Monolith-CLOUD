@@ -5,8 +5,10 @@
 #### Java Springboot
 #### DTO design pattern
 #### Microservices
+### Config server as an microservice for all configurations and different profiles (test, Production, staging)
 #### API first focus
 ### Spring Cloud
+
 
 #### Docker & kubernetes
 #### Clear implementation with right sizing of pods and security thinking
