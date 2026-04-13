@@ -1,4 +1,6 @@
-# Native Cloud vs Cloud.
+
+
+
 ## Native Cloud Approach by implementing all the best practices. 
 ## An implementation of a bank application
 ### used:
@@ -13,6 +15,15 @@
 #### Docker & kubernetes
 #### Clear implementation with right sizing of pods and security thinking
 
+
+## Native Cloud vs Cloud.
+
+Feature - Legacy Cloud (Lift & Shift) vs Cloud Native (Best Practice)
+Scaling -	Scaling Virtual Machines (Slow)	vs Horizontal Pod Autoscaling (Seconds)
+Security -	Perimeter-based (Firewalls)	vs Zero Trust (Network Policies & mTLS)
+Config	- Baked into the image/server	vs Injected via ConfigMaps/Secrets
+Resilience -	Manual recovery	Self-healing vs (K8s automatically restarts failed pods)
+Release	Large, infrequent updates	vs Continuous Delivery
 
 
 # 1. Architectural Foundations
